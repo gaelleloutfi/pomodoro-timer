@@ -1,6 +1,6 @@
 # 🍅 Pomodoro Timer - Desktop Application
 
-> **Vibe Coded** with ❤️ and ☕
+> **Coded** with ❤️, ☕ and 🤖 
 
 A beautiful, production-ready Pomodoro timer desktop application with a refined matcha green aesthetic. Built with Electron, React, TypeScript, and Vite for a modern, performant cross-platform experience.
 
@@ -281,4 +281,5 @@ MIT License - feel free to use this project for any purpose.
 ---
 
 **Made with ❤️ and ☕ using the Pomodoro Technique**
+
 
