@@ -58,7 +58,7 @@
       "target": [
         "dmg"
       ],
-      "icon": "build/icon.icns",
+      "icon": "public/icon.svg",
       "category": "public.app-category.productivity"
     },
     "linux": {
