@@ -1,0 +1,51 @@
+.toggle-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+}
+
+.toggle-label {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.toggle {
+    position: relative;
+    width: 48px;
+    height: 28px;
+    background: var(--neutral-300);
+    border-radius: var(--radius-full);
+    transition: all var(--transition-base);
+    cursor: pointer;
+    padding: 0;
+}
+
+.toggle:hover {
+    background: var(--neutral-400);
+}
+
+.toggle-checked {
+    background: var(--accent);
+}
+
+.toggle-checked:hover {
+    background: var(--accent-hover);
+}
+
+.toggle-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    transition: transform var(--transition-base);
+    box-shadow: var(--shadow-sm);
+}
+
+.toggle-checked .toggle-thumb {
+    transform: translateX(20px);
+}

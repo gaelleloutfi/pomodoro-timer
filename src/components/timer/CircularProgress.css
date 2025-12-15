@@ -1,0 +1,18 @@
+.circular-progress {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-svg {
+    filter: drop-shadow(0 4px 20px rgba(93, 181, 93, 0.2));
+}
+
+.progress-circle {
+    transition: stroke-dashoffset 1s linear;
+}
+
+[data-theme='dark'] .progress-svg {
+    filter: drop-shadow(0 4px 20px rgba(126, 196, 126, 0.3));
+}

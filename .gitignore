@@ -1,0 +1,20 @@
+node_modules
+dist
+dist-electron
+release
+
+
+.DS_Store
+*.log
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea
